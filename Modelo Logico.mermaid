@@ -1,0 +1,95 @@
+erDiagram
+    Jugadores {
+        int Id PK
+        varchar Username
+        varchar Email
+        varchar Password
+        date Fecha_Registro
+    }
+    Galaxias {
+        int Id PK
+        varchar Nombre
+        varchar Sector
+    }
+    Planetas {
+        int Id PK
+        varchar Nombre
+        int CoordenadaX
+        int CoordenadaY
+        int Superficie
+        int Id_Galaxia FK
+        int Id_Jugador FK
+    }
+    Lunas {
+        int Id PK
+        varchar Nombre
+        int Superficie
+        int Id_Planeta FK
+    }
+    Naves {
+        int Id PK
+        varchar Nombre
+        int Costo_R1
+        int Costo_R2
+        int Costo_R3
+    }
+    NavesPlanetas {
+        int Id_Planeta PK,FK
+        int Id_Nave PK,FK
+        int Cantidad
+    }
+    Recursos {
+        int Id PK
+        varchar Nombre
+    }
+    RecursosPlanetas {
+        int Id_Planeta PK,FK
+        int Id_Recurso PK,FK
+        int Cantidad
+    }
+    Armamentos {
+        int Id PK
+        varchar Nombre
+        int Costo_R1
+        int Costo_R2
+        int Costo_R3
+    }
+    ArmamentosPlanetas {
+        int Id_Planeta PK,FK
+        int Id_Armamento PK,FK
+        int Cantidad
+    }
+    Edificios {
+        int Id PK
+        varchar Nombre
+        int Costo_R1
+        int Costo_R2
+        int Costo_R3
+    }
+    EdificiosPlanetas {
+        int Id_Planeta PK,FK
+        int Id_Edificio PK,FK
+    }
+
+    %% relaciones simples
+    Jugadores ||--o{ Planetas : "Jugadores (1:N) Planetas"
+    Galaxias ||--o{ Planetas : "Galaxias (1:N) Planetas"
+    Planetas ||--o{ Lunas : "Planetas (1:N) Lunas"
+
+    %% relaciones N:M (tablas pivote)
+
+    %% Planetas N:M Naves
+    Planetas ||--o{ NavesPlanetas : "Planetas (N)"
+    Naves ||--o{ NavesPlanetas : "Naves (M)"
+
+    %% Planetas N:M Recursos
+    Planetas ||--o{ RecursosPlanetas : "Planetas (N)"
+    Recursos ||--o{ RecursosPlanetas : "Recursor (M)"
+
+    %% Planetas N:M Armamentos
+    Planetas ||--o{ ArmamentosPlanetas : "Planetas (N)"
+    Armamentos ||--o{ ArmamentosPlanetas : "Armamentos (M)"
+
+    %% Planetas N:M Edificios
+    Planetas ||--o{ EdificiosPlanetas : "Planetas (N)"
+    Edificios ||--o{ EdificiosPlanetas : "Edificios (M)"

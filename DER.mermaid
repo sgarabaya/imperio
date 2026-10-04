@@ -1,0 +1,59 @@
+erDiagram
+    Jugadores {
+        int Id
+        varchar Username
+        varchar Email
+        varchar Password
+        date Fecha_Registro
+    }
+    Galaxias {
+        int Id
+        varchar Nombre
+        varchar Sector
+    }
+    Planetas {
+        int Id
+        varchar Nombre
+        int CoordenadaX
+        int CoordenadaY
+        int Superficie
+    }
+    Lunas {
+        int Id
+        varchar Nombre
+        int Superficie
+    }
+    Naves {
+        int Id
+        varchar Nombre
+        int Costo_R1
+        int Costo_R2
+        int Costo_R3
+    }
+    Recursos {
+        int Id
+        varchar Nombre
+    }
+    Armamentos {
+        int Id
+        varchar Nombre
+        int Costo_R1
+        int Costo_R2
+        int Costo_R3
+    }
+    Edificios {
+        int Id
+        varchar Nombre
+        int Costo_R1
+        int Costo_R2
+        int Costo_R3
+    }
+
+    %% relaciones entre entidades:
+    Jugadores ||--o{ Planetas : "Jugadores (1:N) Planetas"
+    Galaxias ||--o{ Planetas : "Galaxias (1:N) Planetas"
+    Planetas ||--o{ Lunas : "Planetas (1:N) Lunas"
+    Planetas }o--o{ Naves : "Planetas (N:M) Naves"
+    Planetas }o--o{ Recursos : "Planetas (N:M) Recursos"
+    Planetas }o--o{ Armamentos : "Planetas (N:M) Armamentos"
+    Planetas }o--o{ Edificios : "Planetas (N:M) Edificios"
