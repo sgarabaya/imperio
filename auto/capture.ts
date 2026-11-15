@@ -78,13 +78,12 @@ export class Capture {
   }
 
   exec() {
-    const statements = this.parseFile();
+    fs.unlinkSync(this.outFile);
 
-    this.append(`# ${this.fileId}\n\n`);
+    const statements = this.parseFile();
 
     for (let index = 0; index < statements.length; index += 1) {
       const statement = statements[index];
-
       console.log("------------------");
       console.log(`${index + 1}/${statements.length}`, "Executing:", statement);
       console.log("------------------");

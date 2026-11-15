@@ -17,6 +17,7 @@ erDiagram
         int CoordenadaX
         int CoordenadaY
         int Superficie
+        bigint Poblacion
     }
     Lunas {
         int Id
@@ -48,6 +49,38 @@ erDiagram
         int Costo_R2
         int Costo_R3
     }
+    Flotas {
+        int Id PK
+        int CazaEstelar
+        int DestructorInterplanetario
+        int NaveColonizacion
+        int TransportadorRecursos
+        int NaveExploracion
+        int Acorazado
+        int Colonizador
+        int SondaEspacial
+    }
+
+    Exploraciones {
+        int Id PK
+        int CoordenadaXInicial
+        int CoordenadaYInicial
+        int CoordenadaXFinal
+        int CoordenadaYFinal
+        TIMESTAMP FechaExploracionInicio
+        TIMESTAMP FechaExploracionFin
+    }
+
+    EstadoFlota {
+        ENUM Disponible
+        ENUM No_Disponible
+    }
+
+    EstadoExploracion {
+        ENUM En_Transito
+        ENUM Arribo
+        ENUM Detenido
+    }
 
     %% relaciones entre entidades:
     Jugadores ||--o{ Planetas : "Jugadores (1:N) Planetas"
@@ -57,3 +90,9 @@ erDiagram
     Planetas }o--o{ Recursos : "Planetas (N:M) Recursos"
     Planetas }o--o{ Armamentos : "Planetas (N:M) Armamentos"
     Planetas }o--o{ Edificios : "Planetas (N:M) Edificios"
+
+    Planetas ||--o{ Flotas : "tiene"
+    Jugadores ||--o{ Exploraciones : "realiza"
+    Flotas ||--o{ Exploraciones : "participa"
+    Flotas }o--|| EstadoFlota : "estado"
+    Exploraciones }o--|| EstadoExploracion : "estado"

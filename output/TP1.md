@@ -59,7 +59,7 @@ CREATE TABLE Jugadores (
 );
 ```
 
-![](images/01-tablas-001.png)
+![](part1-images/01-tablas-001.png)
 
 \newpage
 
@@ -73,7 +73,7 @@ CREATE TABLE Galaxias (
 );
 ```
 
-![](images/01-tablas-002.png)
+![](part1-images/01-tablas-002.png)
 
 \newpage
 
@@ -92,7 +92,7 @@ CREATE TABLE Planetas (
 );
 ```
 
-![](images/01-tablas-003.png)
+![](part1-images/01-tablas-003.png)
 
 \newpage
 
@@ -107,7 +107,7 @@ CREATE TABLE Lunas (
 );
 ```
 
-![](images/01-tablas-004.png)
+![](part1-images/01-tablas-004.png)
 
 \newpage
 
@@ -123,7 +123,7 @@ CREATE TABLE Naves (
 );
 ```
 
-![](images/01-tablas-005.png)
+![](part1-images/01-tablas-005.png)
 
 \newpage
 
@@ -138,7 +138,7 @@ CREATE TABLE NavesPlanetas (
 );
 ```
 
-![](images/01-tablas-006.png)
+![](part1-images/01-tablas-006.png)
 
 \newpage
 
@@ -151,7 +151,7 @@ CREATE TABLE Recursos (
 );
 ```
 
-![](images/01-tablas-007.png)
+![](part1-images/01-tablas-007.png)
 
 \newpage
 
@@ -166,7 +166,7 @@ CREATE TABLE RecursosPlanetas (
 );
 ```
 
-![](images/01-tablas-008.png)
+![](part1-images/01-tablas-008.png)
 
 \newpage
 
@@ -182,7 +182,7 @@ CREATE TABLE Armamentos (
 );
 ```
 
-![](images/01-tablas-009.png)
+![](part1-images/01-tablas-009.png)
 
 \newpage
 
@@ -197,7 +197,7 @@ CREATE TABLE ArmamentosPlanetas (
 );
 ```
 
-![](images/01-tablas-010.png)
+![](part1-images/01-tablas-010.png)
 
 \newpage
 
@@ -213,7 +213,7 @@ CREATE TABLE Edificios (
 );
 ```
 
-![](images/01-tablas-011.png)
+![](part1-images/01-tablas-011.png)
 
 \newpage
 
@@ -227,7 +227,7 @@ CREATE TABLE EdificiosPlanetas (
 );
 ```
 
-![](images/01-tablas-012.png)
+![](part1-images/01-tablas-012.png)
 
 \newpage
 
@@ -262,7 +262,7 @@ INSERT INTO Jugadores (Username, Email, Password, Fecha_Registro)
 VALUES ('astro_gamer', 'astro_gamer@email.com', 'estelar123', '2024-02-18');
 ```
 
-![](images/02-datos-001.png)
+![](part1-images/02-datos-001.png)
 
 \newpage
 
@@ -271,7 +271,7 @@ INSERT INTO Jugadores (Username, Email, Password, Fecha_Registro)
 VALUES ('galactic_ruler', 'ruler@galaxy.com', 'ruler567', '2024-02-18');
 ```
 
-![](images/02-datos-002.png)
+![](part1-images/02-datos-002.png)
 
 \newpage
 
@@ -280,7 +280,7 @@ INSERT INTO Jugadores (Username, Email, Password, Fecha_Registro)
 VALUES ('cosmic_explorer', 'explorer@universe.com', 'explore321', '2024-02-18');
 ```
 
-![](images/02-datos-003.png)
+![](part1-images/02-datos-003.png)
 
 \newpage
 
@@ -289,7 +289,7 @@ INSERT INTO Jugadores (Username, Email, Password, Fecha_Registro)
 VALUES ('space_commander', 'commander@space.com', 'command789', '2024-02-18');
 ```
 
-![](images/02-datos-004.png)
+![](part1-images/02-datos-004.png)
 
 \newpage
 
@@ -298,7 +298,7 @@ INSERT INTO Jugadores (Username, Email, Password, Fecha_Registro)
 VALUES ('stargazer', 'stargazer@gmail.com', 'star1234', '2024-02-18');
 ```
 
-![](images/02-datos-005.png)
+![](part1-images/02-datos-005.png)
 
 \newpage
 
@@ -307,7 +307,7 @@ INSERT INTO Jugadores (Username, Email, Password, Fecha_Registro)
 VALUES ('space_pioneer', 'pioneer@email.com', 'pioneer123', '2024-02-18');
 ```
 
-![](images/02-datos-006.png)
+![](part1-images/02-datos-006.png)
 
 \newpage
 
@@ -337,7 +337,7 @@ INSERT INTO Galaxias (Nombre, Sector)
 VALUES ('Milky Way', 'Alpha');
 ```
 
-![](images/02-datos-007.png)
+![](part1-images/02-datos-007.png)
 
 \newpage
 
@@ -346,7 +346,7 @@ INSERT INTO Galaxias (Nombre, Sector)
 VALUES ('Andromeda', 'Beta');
 ```
 
-![](images/02-datos-008.png)
+![](part1-images/02-datos-008.png)
 
 \newpage
 
@@ -355,7 +355,7 @@ INSERT INTO Galaxias (Nombre, Sector)
 VALUES ('Pegasus', 'Gamma');
 ```
 
-![](images/02-datos-009.png)
+![](part1-images/02-datos-009.png)
 
 \newpage
 
@@ -364,7 +364,7 @@ INSERT INTO Galaxias (Nombre, Sector)
 VALUES ('Orion', 'Delta');
 ```
 
-![](images/02-datos-010.png)
+![](part1-images/02-datos-010.png)
 
 \newpage
 
@@ -373,7 +373,7 @@ INSERT INTO Galaxias (Nombre, Sector)
 VALUES ('Centaurus', 'Epsilon');
 ```
 
-![](images/02-datos-011.png)
+![](part1-images/02-datos-011.png)
 
 \newpage
 
@@ -409,7 +409,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Nova Prime', 10, 20, 108728, 1);
 ```
 
-![](images/02-datos-012.png)
+![](part1-images/02-datos-012.png)
 
 \newpage
 
@@ -418,7 +418,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Stellar Haven', 15, 25, 4884, 2);
 ```
 
-![](images/02-datos-013.png)
+![](part1-images/02-datos-013.png)
 
 \newpage
 
@@ -427,7 +427,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Astral Oasis', 8, 30, 142984, 1);
 ```
 
-![](images/02-datos-014.png)
+![](part1-images/02-datos-014.png)
 
 \newpage
 
@@ -436,7 +436,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Celestial Outpost', 12, 18, 9452, 3);
 ```
 
-![](images/02-datos-015.png)
+![](part1-images/02-datos-015.png)
 
 \newpage
 
@@ -445,7 +445,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Galactic Citadel', 25, 15, 51118, 4);
 ```
 
-![](images/02-datos-016.png)
+![](part1-images/02-datos-016.png)
 
 \newpage
 
@@ -454,7 +454,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Starlight Sanctuary', 5, 12, 7534, 1);
 ```
 
-![](images/02-datos-017.png)
+![](part1-images/02-datos-017.png)
 
 \newpage
 
@@ -463,7 +463,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Celestial Outpost II', 18, 22, 49532, 2);
 ```
 
-![](images/02-datos-018.png)
+![](part1-images/02-datos-018.png)
 
 \newpage
 
@@ -472,7 +472,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Nebula Nexus', 30, 8, 6794, 3);
 ```
 
-![](images/02-datos-019.png)
+![](part1-images/02-datos-019.png)
 
 \newpage
 
@@ -481,7 +481,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Solar Haven', 10, 30, 12756, 1);
 ```
 
-![](images/02-datos-020.png)
+![](part1-images/02-datos-020.png)
 
 \newpage
 
@@ -490,7 +490,7 @@ INSERT INTO Planetas (Nombre, CoordenadaX, CoordenadaY, Superficie, Id_Galaxia)
 VALUES ('Asteroid Haven', 22, 17, 12104, 4);
 ```
 
-![](images/02-datos-021.png)
+![](part1-images/02-datos-021.png)
 
 \newpage
 
@@ -530,7 +530,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('Luminara', 1524, 1);
 ```
 
-![](images/02-datos-022.png)
+![](part1-images/02-datos-022.png)
 
 \newpage
 
@@ -539,7 +539,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('Nightshade', 1289, 2);
 ```
 
-![](images/02-datos-023.png)
+![](part1-images/02-datos-023.png)
 
 \newpage
 
@@ -548,7 +548,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('Galaxysong', 1811, 3);
 ```
 
-![](images/02-datos-024.png)
+![](part1-images/02-datos-024.png)
 
 \newpage
 
@@ -557,7 +557,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('StellarDust', 2037, 4);
 ```
 
-![](images/02-datos-025.png)
+![](part1-images/02-datos-025.png)
 
 \newpage
 
@@ -566,7 +566,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('MoonlightGrove', 1699, 5);
 ```
 
-![](images/02-datos-026.png)
+![](part1-images/02-datos-026.png)
 
 \newpage
 
@@ -575,7 +575,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('GlimmeringOrbit', 1387, 1);
 ```
 
-![](images/02-datos-027.png)
+![](part1-images/02-datos-027.png)
 
 \newpage
 
@@ -584,7 +584,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('EclipseHarbor', 1114, 2);
 ```
 
-![](images/02-datos-028.png)
+![](part1-images/02-datos-028.png)
 
 \newpage
 
@@ -593,7 +593,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('MoonstoneMeadow', 1532, 3);
 ```
 
-![](images/02-datos-029.png)
+![](part1-images/02-datos-029.png)
 
 \newpage
 
@@ -602,7 +602,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('StellarRefuge', 1844, 4);
 ```
 
-![](images/02-datos-030.png)
+![](part1-images/02-datos-030.png)
 
 \newpage
 
@@ -611,7 +611,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('CosmicSerenity', 1656, 5);
 ```
 
-![](images/02-datos-031.png)
+![](part1-images/02-datos-031.png)
 
 \newpage
 
@@ -620,7 +620,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('Luminara II', 1457, 6);
 ```
 
-![](images/02-datos-032.png)
+![](part1-images/02-datos-032.png)
 
 \newpage
 
@@ -629,7 +629,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('Nightshade II', 1228, 7);
 ```
 
-![](images/02-datos-033.png)
+![](part1-images/02-datos-033.png)
 
 \newpage
 
@@ -638,7 +638,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('Galaxysong II', 1791, 8);
 ```
 
-![](images/02-datos-034.png)
+![](part1-images/02-datos-034.png)
 
 \newpage
 
@@ -647,7 +647,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('StellarDust II', 2033, 9);
 ```
 
-![](images/02-datos-035.png)
+![](part1-images/02-datos-035.png)
 
 \newpage
 
@@ -656,7 +656,7 @@ INSERT INTO Lunas (Nombre, Superficie, Id_Planeta)
 VALUES ('MoonlightGrove II', 1578, 10);
 ```
 
-![](images/02-datos-036.png)
+![](part1-images/02-datos-036.png)
 
 \newpage
 
@@ -688,7 +688,7 @@ INSERT INTO Naves (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Caza Estelar', 100, 50, 30);
 ```
 
-![](images/02-datos-037.png)
+![](part1-images/02-datos-037.png)
 
 \newpage
 
@@ -697,7 +697,7 @@ INSERT INTO Naves (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Destructor Interplanetario', 200, 100, 150);
 ```
 
-![](images/02-datos-038.png)
+![](part1-images/02-datos-038.png)
 
 \newpage
 
@@ -706,7 +706,7 @@ INSERT INTO Naves (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Nave de Colonización', 150, 80, 100);
 ```
 
-![](images/02-datos-039.png)
+![](part1-images/02-datos-039.png)
 
 \newpage
 
@@ -715,7 +715,7 @@ INSERT INTO Naves (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Transportador de Recursos', 80, 120, 50);
 ```
 
-![](images/02-datos-040.png)
+![](part1-images/02-datos-040.png)
 
 \newpage
 
@@ -724,7 +724,7 @@ INSERT INTO Naves (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Nave de Exploración', 120, 70, 90);
 ```
 
-![](images/02-datos-041.png)
+![](part1-images/02-datos-041.png)
 
 \newpage
 
@@ -750,7 +750,7 @@ INSERT INTO Recursos (Nombre) VALUES (?);
 INSERT INTO Recursos (Nombre) VALUES ('Metal');
 ```
 
-![](images/02-datos-042.png)
+![](part1-images/02-datos-042.png)
 
 \newpage
 
@@ -758,7 +758,7 @@ INSERT INTO Recursos (Nombre) VALUES ('Metal');
 INSERT INTO Recursos (Nombre) VALUES ('Deuterio');
 ```
 
-![](images/02-datos-043.png)
+![](part1-images/02-datos-043.png)
 
 \newpage
 
@@ -766,7 +766,7 @@ INSERT INTO Recursos (Nombre) VALUES ('Deuterio');
 INSERT INTO Recursos (Nombre) VALUES ('Energía');
 ```
 
-![](images/02-datos-044.png)
+![](part1-images/02-datos-044.png)
 
 \newpage
 
@@ -796,7 +796,7 @@ INSERT INTO Armamentos (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Cañón de Plasma', 150, 100, 80);
 ```
 
-![](images/02-datos-045.png)
+![](part1-images/02-datos-045.png)
 
 \newpage
 
@@ -805,7 +805,7 @@ INSERT INTO Armamentos (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Torreta de Defensa', 100, 80, 120);
 ```
 
-![](images/02-datos-046.png)
+![](part1-images/02-datos-046.png)
 
 \newpage
 
@@ -814,7 +814,7 @@ INSERT INTO Armamentos (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Láser de Precisión', 120, 150, 100);
 ```
 
-![](images/02-datos-047.png)
+![](part1-images/02-datos-047.png)
 
 \newpage
 
@@ -823,7 +823,7 @@ INSERT INTO Armamentos (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Bomba de Neutrinos', 80, 120, 150);
 ```
 
-![](images/02-datos-048.png)
+![](part1-images/02-datos-048.png)
 
 \newpage
 
@@ -832,7 +832,7 @@ INSERT INTO Armamentos (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Escudo de Energía', 100, 150, 80);
 ```
 
-![](images/02-datos-049.png)
+![](part1-images/02-datos-049.png)
 
 \newpage
 
@@ -864,7 +864,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Centro de Investigación', 500, 200, 300);
 ```
 
-![](images/02-datos-050.png)
+![](part1-images/02-datos-050.png)
 
 \newpage
 
@@ -873,7 +873,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Hangar de Naves', 300, 400, 200);
 ```
 
-![](images/02-datos-051.png)
+![](part1-images/02-datos-051.png)
 
 \newpage
 
@@ -882,7 +882,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Planta de Energía Solar', 200, 300, 500);
 ```
 
-![](images/02-datos-052.png)
+![](part1-images/02-datos-052.png)
 
 \newpage
 
@@ -891,7 +891,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Defensa Planetaria', 400, 200, 300);
 ```
 
-![](images/02-datos-053.png)
+![](part1-images/02-datos-053.png)
 
 \newpage
 
@@ -900,7 +900,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Puerto Espacial', 300, 500, 200);
 ```
 
-![](images/02-datos-054.png)
+![](part1-images/02-datos-054.png)
 
 \newpage
 
@@ -909,7 +909,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Sintetizador de Deuterio', 250, 400, 150);
 ```
 
-![](images/02-datos-055.png)
+![](part1-images/02-datos-055.png)
 
 \newpage
 
@@ -918,7 +918,7 @@ INSERT INTO Edificios (Nombre, Costo_R1, Costo_R2, Costo_R3)
 VALUES ('Almacén de Metales', 150, 250, 100);
 ```
 
-![](images/02-datos-056.png)
+![](part1-images/02-datos-056.png)
 
 \newpage
 
@@ -932,7 +932,7 @@ VALUES ('Almacén de Metales', 150, 250, 100);
 UPDATE Planetas SET Id_Jugador = 1 WHERE Id = 1;
 ```
 
-![](images/03.01-queries-001.png)
+![](part1-images/03.01-queries-001.png)
 
 \newpage
 
@@ -942,7 +942,7 @@ UPDATE Planetas SET Id_Jugador = 1 WHERE Id = 1;
 UPDATE Planetas SET Id_Jugador = 1 WHERE Id = 3;
 ```
 
-![](images/03.01-queries-002.png)
+![](part1-images/03.01-queries-002.png)
 
 \newpage
 
@@ -952,7 +952,7 @@ UPDATE Planetas SET Id_Jugador = 1 WHERE Id = 3;
 UPDATE Planetas SET Id_Jugador = 1 WHERE Id = 6;
 ```
 
-![](images/03.01-queries-003.png)
+![](part1-images/03.01-queries-003.png)
 
 \newpage
 
@@ -962,7 +962,7 @@ UPDATE Planetas SET Id_Jugador = 1 WHERE Id = 6;
 UPDATE Planetas SET Id_Jugador = 2 WHERE Id = 2;
 ```
 
-![](images/03.01-queries-004.png)
+![](part1-images/03.01-queries-004.png)
 
 \newpage
 
@@ -972,7 +972,7 @@ UPDATE Planetas SET Id_Jugador = 2 WHERE Id = 2;
 UPDATE Planetas SET Id_Jugador = 2 WHERE Id = 7;
 ```
 
-![](images/03.01-queries-005.png)
+![](part1-images/03.01-queries-005.png)
 
 \newpage
 
@@ -982,7 +982,7 @@ UPDATE Planetas SET Id_Jugador = 2 WHERE Id = 7;
 UPDATE Planetas SET Id_Jugador = 3 WHERE Id = 8;
 ```
 
-![](images/03.01-queries-006.png)
+![](part1-images/03.01-queries-006.png)
 
 \newpage
 
@@ -992,7 +992,7 @@ UPDATE Planetas SET Id_Jugador = 3 WHERE Id = 8;
 UPDATE Planetas SET Id_Jugador = 4 WHERE Id = 4;
 ```
 
-![](images/03.01-queries-007.png)
+![](part1-images/03.01-queries-007.png)
 
 \newpage
 
@@ -1002,7 +1002,7 @@ UPDATE Planetas SET Id_Jugador = 4 WHERE Id = 4;
 UPDATE Planetas SET Id_Jugador = 4 WHERE Id = 10;
 ```
 
-![](images/03.01-queries-008.png)
+![](part1-images/03.01-queries-008.png)
 
 \newpage
 
@@ -1012,7 +1012,7 @@ UPDATE Planetas SET Id_Jugador = 4 WHERE Id = 10;
 UPDATE Planetas SET Id_Jugador = 5 WHERE Id = 5;
 ```
 
-![](images/03.01-queries-009.png)
+![](part1-images/03.01-queries-009.png)
 
 \newpage
 
@@ -1022,7 +1022,7 @@ UPDATE Planetas SET Id_Jugador = 5 WHERE Id = 5;
 UPDATE Planetas SET Id_Jugador = 6 WHERE Id = 9;
 ```
 
-![](images/03.01-queries-010.png)
+![](part1-images/03.01-queries-010.png)
 
 \newpage
 
@@ -1042,7 +1042,7 @@ Todos los planetas tienen:
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (1, 1, 500000);
 ```
 
-![](images/03.02-queries-001.png)
+![](part1-images/03.02-queries-001.png)
 
 \newpage
 
@@ -1050,7 +1050,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (1, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (1, 2, 23000);
 ```
 
-![](images/03.02-queries-002.png)
+![](part1-images/03.02-queries-002.png)
 
 \newpage
 
@@ -1058,7 +1058,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (1, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (1, 3, 25000);
 ```
 
-![](images/03.02-queries-003.png)
+![](part1-images/03.02-queries-003.png)
 
 \newpage
 
@@ -1066,7 +1066,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (1, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (2, 1, 500000);
 ```
 
-![](images/03.02-queries-004.png)
+![](part1-images/03.02-queries-004.png)
 
 \newpage
 
@@ -1074,7 +1074,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (2, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (2, 2, 23000);
 ```
 
-![](images/03.02-queries-005.png)
+![](part1-images/03.02-queries-005.png)
 
 \newpage
 
@@ -1082,7 +1082,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (2, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (2, 3, 25000);
 ```
 
-![](images/03.02-queries-006.png)
+![](part1-images/03.02-queries-006.png)
 
 \newpage
 
@@ -1090,7 +1090,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (2, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (3, 1, 500000);
 ```
 
-![](images/03.02-queries-007.png)
+![](part1-images/03.02-queries-007.png)
 
 \newpage
 
@@ -1098,7 +1098,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (3, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (3, 2, 23000);
 ```
 
-![](images/03.02-queries-008.png)
+![](part1-images/03.02-queries-008.png)
 
 \newpage
 
@@ -1106,7 +1106,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (3, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (3, 3, 25000);
 ```
 
-![](images/03.02-queries-009.png)
+![](part1-images/03.02-queries-009.png)
 
 \newpage
 
@@ -1114,7 +1114,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (3, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (4, 1, 500000);
 ```
 
-![](images/03.02-queries-010.png)
+![](part1-images/03.02-queries-010.png)
 
 \newpage
 
@@ -1122,7 +1122,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (4, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (4, 2, 23000);
 ```
 
-![](images/03.02-queries-011.png)
+![](part1-images/03.02-queries-011.png)
 
 \newpage
 
@@ -1130,7 +1130,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (4, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (4, 3, 25000);
 ```
 
-![](images/03.02-queries-012.png)
+![](part1-images/03.02-queries-012.png)
 
 \newpage
 
@@ -1138,7 +1138,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (4, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (5, 1, 500000);
 ```
 
-![](images/03.02-queries-013.png)
+![](part1-images/03.02-queries-013.png)
 
 \newpage
 
@@ -1146,7 +1146,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (5, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (5, 2, 23000);
 ```
 
-![](images/03.02-queries-014.png)
+![](part1-images/03.02-queries-014.png)
 
 \newpage
 
@@ -1154,7 +1154,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (5, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (5, 3, 25000);
 ```
 
-![](images/03.02-queries-015.png)
+![](part1-images/03.02-queries-015.png)
 
 \newpage
 
@@ -1162,7 +1162,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (5, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (6, 1, 500000);
 ```
 
-![](images/03.02-queries-016.png)
+![](part1-images/03.02-queries-016.png)
 
 \newpage
 
@@ -1170,7 +1170,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (6, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (6, 2, 23000);
 ```
 
-![](images/03.02-queries-017.png)
+![](part1-images/03.02-queries-017.png)
 
 \newpage
 
@@ -1178,7 +1178,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (6, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (6, 3, 25000);
 ```
 
-![](images/03.02-queries-018.png)
+![](part1-images/03.02-queries-018.png)
 
 \newpage
 
@@ -1186,7 +1186,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (6, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (7, 1, 500000);
 ```
 
-![](images/03.02-queries-019.png)
+![](part1-images/03.02-queries-019.png)
 
 \newpage
 
@@ -1194,7 +1194,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (7, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (7, 2, 23000);
 ```
 
-![](images/03.02-queries-020.png)
+![](part1-images/03.02-queries-020.png)
 
 \newpage
 
@@ -1202,7 +1202,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (7, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (7, 3, 25000);
 ```
 
-![](images/03.02-queries-021.png)
+![](part1-images/03.02-queries-021.png)
 
 \newpage
 
@@ -1210,7 +1210,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (7, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (8, 1, 500000);
 ```
 
-![](images/03.02-queries-022.png)
+![](part1-images/03.02-queries-022.png)
 
 \newpage
 
@@ -1218,7 +1218,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (8, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (8, 2, 23000);
 ```
 
-![](images/03.02-queries-023.png)
+![](part1-images/03.02-queries-023.png)
 
 \newpage
 
@@ -1226,7 +1226,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (8, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (8, 3, 25000);
 ```
 
-![](images/03.02-queries-024.png)
+![](part1-images/03.02-queries-024.png)
 
 \newpage
 
@@ -1234,7 +1234,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (8, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (9, 1, 500000);
 ```
 
-![](images/03.02-queries-025.png)
+![](part1-images/03.02-queries-025.png)
 
 \newpage
 
@@ -1242,7 +1242,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (9, 1, 50
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (9, 2, 23000);
 ```
 
-![](images/03.02-queries-026.png)
+![](part1-images/03.02-queries-026.png)
 
 \newpage
 
@@ -1250,7 +1250,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (9, 2, 23
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (9, 3, 25000);
 ```
 
-![](images/03.02-queries-027.png)
+![](part1-images/03.02-queries-027.png)
 
 \newpage
 
@@ -1258,7 +1258,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (9, 3, 25
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (10, 1, 500000);
 ```
 
-![](images/03.02-queries-028.png)
+![](part1-images/03.02-queries-028.png)
 
 \newpage
 
@@ -1266,7 +1266,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (10, 1, 5
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (10, 2, 23000);
 ```
 
-![](images/03.02-queries-029.png)
+![](part1-images/03.02-queries-029.png)
 
 \newpage
 
@@ -1274,7 +1274,7 @@ INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (10, 2, 2
 INSERT INTO RecursosPlanetas (Id_Planeta, Id_Recurso, Cantidad) VALUES (10, 3, 25000);
 ```
 
-![](images/03.02-queries-030.png)
+![](part1-images/03.02-queries-030.png)
 
 \newpage
 
@@ -1330,7 +1330,7 @@ Son 4 queries por Edificio, ya que al construir el edificio tenemos que pagar el
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (1, 1);
 ```
 
-![](images/03.03-queries-001.png)
+![](part1-images/03.03-queries-001.png)
 
 \newpage
 
@@ -1339,7 +1339,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 1 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-002.png)
+![](part1-images/03.03-queries-002.png)
 
 \newpage
 
@@ -1348,7 +1348,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 1 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-003.png)
+![](part1-images/03.03-queries-003.png)
 
 \newpage
 
@@ -1357,7 +1357,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 1 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-004.png)
+![](part1-images/03.03-queries-004.png)
 
 \newpage
 
@@ -1365,7 +1365,7 @@ WHERE Id_Planeta = 1 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (1, 6);
 ```
 
-![](images/03.03-queries-005.png)
+![](part1-images/03.03-queries-005.png)
 
 \newpage
 
@@ -1374,7 +1374,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 1 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-006.png)
+![](part1-images/03.03-queries-006.png)
 
 \newpage
 
@@ -1383,7 +1383,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 1 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-007.png)
+![](part1-images/03.03-queries-007.png)
 
 \newpage
 
@@ -1392,7 +1392,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 1 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-008.png)
+![](part1-images/03.03-queries-008.png)
 
 \newpage
 
@@ -1400,7 +1400,7 @@ WHERE Id_Planeta = 1 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (2, 2);
 ```
 
-![](images/03.03-queries-009.png)
+![](part1-images/03.03-queries-009.png)
 
 \newpage
 
@@ -1409,7 +1409,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 2 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-010.png)
+![](part1-images/03.03-queries-010.png)
 
 \newpage
 
@@ -1418,7 +1418,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 2 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-011.png)
+![](part1-images/03.03-queries-011.png)
 
 \newpage
 
@@ -1427,7 +1427,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-012.png)
+![](part1-images/03.03-queries-012.png)
 
 \newpage
 
@@ -1435,7 +1435,7 @@ WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (2, 5);
 ```
 
-![](images/03.03-queries-013.png)
+![](part1-images/03.03-queries-013.png)
 
 \newpage
 
@@ -1444,7 +1444,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 2 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-014.png)
+![](part1-images/03.03-queries-014.png)
 
 \newpage
 
@@ -1453,7 +1453,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 2 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-015.png)
+![](part1-images/03.03-queries-015.png)
 
 \newpage
 
@@ -1462,7 +1462,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-016.png)
+![](part1-images/03.03-queries-016.png)
 
 \newpage
 
@@ -1470,7 +1470,7 @@ WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (2, 7);
 ```
 
-![](images/03.03-queries-017.png)
+![](part1-images/03.03-queries-017.png)
 
 \newpage
 
@@ -1479,7 +1479,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 250
 WHERE Id_Planeta = 2 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-018.png)
+![](part1-images/03.03-queries-018.png)
 
 \newpage
 
@@ -1488,7 +1488,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 2 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-019.png)
+![](part1-images/03.03-queries-019.png)
 
 \newpage
 
@@ -1497,7 +1497,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 150
 WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-020.png)
+![](part1-images/03.03-queries-020.png)
 
 \newpage
 
@@ -1505,7 +1505,7 @@ WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (3, 2);
 ```
 
-![](images/03.03-queries-021.png)
+![](part1-images/03.03-queries-021.png)
 
 \newpage
 
@@ -1514,7 +1514,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 3 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-022.png)
+![](part1-images/03.03-queries-022.png)
 
 \newpage
 
@@ -1523,7 +1523,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 3 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-023.png)
+![](part1-images/03.03-queries-023.png)
 
 \newpage
 
@@ -1532,7 +1532,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 3 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-024.png)
+![](part1-images/03.03-queries-024.png)
 
 \newpage
 
@@ -1540,7 +1540,7 @@ WHERE Id_Planeta = 3 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (3, 3);
 ```
 
-![](images/03.03-queries-025.png)
+![](part1-images/03.03-queries-025.png)
 
 \newpage
 
@@ -1549,7 +1549,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 3 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-026.png)
+![](part1-images/03.03-queries-026.png)
 
 \newpage
 
@@ -1558,7 +1558,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 3 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-027.png)
+![](part1-images/03.03-queries-027.png)
 
 \newpage
 
@@ -1567,7 +1567,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 3 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-028.png)
+![](part1-images/03.03-queries-028.png)
 
 \newpage
 
@@ -1575,7 +1575,7 @@ WHERE Id_Planeta = 3 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (4, 3);
 ```
 
-![](images/03.03-queries-029.png)
+![](part1-images/03.03-queries-029.png)
 
 \newpage
 
@@ -1584,7 +1584,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 4 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-030.png)
+![](part1-images/03.03-queries-030.png)
 
 \newpage
 
@@ -1593,7 +1593,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 4 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-031.png)
+![](part1-images/03.03-queries-031.png)
 
 \newpage
 
@@ -1602,7 +1602,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 4 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-032.png)
+![](part1-images/03.03-queries-032.png)
 
 \newpage
 
@@ -1610,7 +1610,7 @@ WHERE Id_Planeta = 4 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (4, 4);
 ```
 
-![](images/03.03-queries-033.png)
+![](part1-images/03.03-queries-033.png)
 
 \newpage
 
@@ -1619,7 +1619,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 4 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-034.png)
+![](part1-images/03.03-queries-034.png)
 
 \newpage
 
@@ -1628,7 +1628,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 4 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-035.png)
+![](part1-images/03.03-queries-035.png)
 
 \newpage
 
@@ -1637,7 +1637,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 4 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-036.png)
+![](part1-images/03.03-queries-036.png)
 
 \newpage
 
@@ -1645,7 +1645,7 @@ WHERE Id_Planeta = 4 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (5, 1);
 ```
 
-![](images/03.03-queries-037.png)
+![](part1-images/03.03-queries-037.png)
 
 \newpage
 
@@ -1654,7 +1654,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 5 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-038.png)
+![](part1-images/03.03-queries-038.png)
 
 \newpage
 
@@ -1663,7 +1663,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 5 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-039.png)
+![](part1-images/03.03-queries-039.png)
 
 \newpage
 
@@ -1672,7 +1672,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 5 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-040.png)
+![](part1-images/03.03-queries-040.png)
 
 \newpage
 
@@ -1680,7 +1680,7 @@ WHERE Id_Planeta = 5 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (5, 2);
 ```
 
-![](images/03.03-queries-041.png)
+![](part1-images/03.03-queries-041.png)
 
 \newpage
 
@@ -1689,7 +1689,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 5 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-042.png)
+![](part1-images/03.03-queries-042.png)
 
 \newpage
 
@@ -1698,7 +1698,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 5 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-043.png)
+![](part1-images/03.03-queries-043.png)
 
 \newpage
 
@@ -1707,7 +1707,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 5 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-044.png)
+![](part1-images/03.03-queries-044.png)
 
 \newpage
 
@@ -1715,7 +1715,7 @@ WHERE Id_Planeta = 5 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (6, 1);
 ```
 
-![](images/03.03-queries-045.png)
+![](part1-images/03.03-queries-045.png)
 
 \newpage
 
@@ -1724,7 +1724,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 6 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-046.png)
+![](part1-images/03.03-queries-046.png)
 
 \newpage
 
@@ -1733,7 +1733,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 6 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-047.png)
+![](part1-images/03.03-queries-047.png)
 
 \newpage
 
@@ -1742,7 +1742,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 6 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-048.png)
+![](part1-images/03.03-queries-048.png)
 
 \newpage
 
@@ -1750,7 +1750,7 @@ WHERE Id_Planeta = 6 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (6, 6);
 ```
 
-![](images/03.03-queries-049.png)
+![](part1-images/03.03-queries-049.png)
 
 \newpage
 
@@ -1759,7 +1759,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 6 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-050.png)
+![](part1-images/03.03-queries-050.png)
 
 \newpage
 
@@ -1768,7 +1768,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 6 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-051.png)
+![](part1-images/03.03-queries-051.png)
 
 \newpage
 
@@ -1777,7 +1777,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 6 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-052.png)
+![](part1-images/03.03-queries-052.png)
 
 \newpage
 
@@ -1785,7 +1785,7 @@ WHERE Id_Planeta = 6 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (7, 2);
 ```
 
-![](images/03.03-queries-053.png)
+![](part1-images/03.03-queries-053.png)
 
 \newpage
 
@@ -1794,7 +1794,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 7 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-054.png)
+![](part1-images/03.03-queries-054.png)
 
 \newpage
 
@@ -1803,7 +1803,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 7 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-055.png)
+![](part1-images/03.03-queries-055.png)
 
 \newpage
 
@@ -1812,7 +1812,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-056.png)
+![](part1-images/03.03-queries-056.png)
 
 \newpage
 
@@ -1820,7 +1820,7 @@ WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (7, 3);
 ```
 
-![](images/03.03-queries-057.png)
+![](part1-images/03.03-queries-057.png)
 
 \newpage
 
@@ -1829,7 +1829,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 7 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-058.png)
+![](part1-images/03.03-queries-058.png)
 
 \newpage
 
@@ -1838,7 +1838,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 7 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-059.png)
+![](part1-images/03.03-queries-059.png)
 
 \newpage
 
@@ -1847,7 +1847,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-060.png)
+![](part1-images/03.03-queries-060.png)
 
 \newpage
 
@@ -1855,7 +1855,7 @@ WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (8, 1);
 ```
 
-![](images/03.03-queries-061.png)
+![](part1-images/03.03-queries-061.png)
 
 \newpage
 
@@ -1864,7 +1864,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 8 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-062.png)
+![](part1-images/03.03-queries-062.png)
 
 \newpage
 
@@ -1873,7 +1873,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 8 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-063.png)
+![](part1-images/03.03-queries-063.png)
 
 \newpage
 
@@ -1882,7 +1882,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 8 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-064.png)
+![](part1-images/03.03-queries-064.png)
 
 \newpage
 
@@ -1890,7 +1890,7 @@ WHERE Id_Planeta = 8 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (8, 7);
 ```
 
-![](images/03.03-queries-065.png)
+![](part1-images/03.03-queries-065.png)
 
 \newpage
 
@@ -1899,7 +1899,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 250
 WHERE Id_Planeta = 8 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-066.png)
+![](part1-images/03.03-queries-066.png)
 
 \newpage
 
@@ -1908,7 +1908,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 8 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-067.png)
+![](part1-images/03.03-queries-067.png)
 
 \newpage
 
@@ -1917,7 +1917,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 150
 WHERE Id_Planeta = 8 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-068.png)
+![](part1-images/03.03-queries-068.png)
 
 \newpage
 
@@ -1925,7 +1925,7 @@ WHERE Id_Planeta = 8 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (9, 2);
 ```
 
-![](images/03.03-queries-069.png)
+![](part1-images/03.03-queries-069.png)
 
 \newpage
 
@@ -1934,7 +1934,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 9 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-070.png)
+![](part1-images/03.03-queries-070.png)
 
 \newpage
 
@@ -1943,7 +1943,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 9 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-071.png)
+![](part1-images/03.03-queries-071.png)
 
 \newpage
 
@@ -1952,7 +1952,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-072.png)
+![](part1-images/03.03-queries-072.png)
 
 \newpage
 
@@ -1960,7 +1960,7 @@ WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (9, 5);
 ```
 
-![](images/03.03-queries-073.png)
+![](part1-images/03.03-queries-073.png)
 
 \newpage
 
@@ -1969,7 +1969,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 400
 WHERE Id_Planeta = 9 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-074.png)
+![](part1-images/03.03-queries-074.png)
 
 \newpage
 
@@ -1978,7 +1978,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 9 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-075.png)
+![](part1-images/03.03-queries-075.png)
 
 \newpage
 
@@ -1987,7 +1987,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-076.png)
+![](part1-images/03.03-queries-076.png)
 
 \newpage
 
@@ -1995,7 +1995,7 @@ WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (9, 6);
 ```
 
-![](images/03.03-queries-077.png)
+![](part1-images/03.03-queries-077.png)
 
 \newpage
 
@@ -2004,7 +2004,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 9 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-078.png)
+![](part1-images/03.03-queries-078.png)
 
 \newpage
 
@@ -2013,7 +2013,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 9 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-079.png)
+![](part1-images/03.03-queries-079.png)
 
 \newpage
 
@@ -2022,7 +2022,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-080.png)
+![](part1-images/03.03-queries-080.png)
 
 \newpage
 
@@ -2030,7 +2030,7 @@ WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (10, 1);
 ```
 
-![](images/03.03-queries-081.png)
+![](part1-images/03.03-queries-081.png)
 
 \newpage
 
@@ -2039,7 +2039,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 10 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-082.png)
+![](part1-images/03.03-queries-082.png)
 
 \newpage
 
@@ -2048,7 +2048,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 10 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-083.png)
+![](part1-images/03.03-queries-083.png)
 
 \newpage
 
@@ -2057,7 +2057,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 10 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-084.png)
+![](part1-images/03.03-queries-084.png)
 
 \newpage
 
@@ -2065,7 +2065,7 @@ WHERE Id_Planeta = 10 AND Id_Recurso = 3;
 INSERT INTO EdificiosPlanetas (Id_Planeta, Id_Edificio) VALUES (10, 3);
 ```
 
-![](images/03.03-queries-085.png)
+![](part1-images/03.03-queries-085.png)
 
 \newpage
 
@@ -2074,7 +2074,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200
 WHERE Id_Planeta = 10 AND Id_Recurso = 1;
 ```
 
-![](images/03.03-queries-086.png)
+![](part1-images/03.03-queries-086.png)
 
 \newpage
 
@@ -2083,7 +2083,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 300
 WHERE Id_Planeta = 10 AND Id_Recurso = 2;
 ```
 
-![](images/03.03-queries-087.png)
+![](part1-images/03.03-queries-087.png)
 
 \newpage
 
@@ -2092,7 +2092,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 500
 WHERE Id_Planeta = 10 AND Id_Recurso = 3;
 ```
 
-![](images/03.03-queries-088.png)
+![](part1-images/03.03-queries-088.png)
 
 \newpage
 
@@ -2135,7 +2135,7 @@ Son 4 queries por entrada, ya que al construir la nave tenemos que pagar el cost
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (2, 1, 50);
 ```
 
-![](images/03.04-queries-001.png)
+![](part1-images/03.04-queries-001.png)
 
 \newpage
 
@@ -2144,7 +2144,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 100 * 50
 WHERE Id_Planeta = 2 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-002.png)
+![](part1-images/03.04-queries-002.png)
 
 \newpage
 
@@ -2153,7 +2153,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 50 * 50
 WHERE Id_Planeta = 2 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-003.png)
+![](part1-images/03.04-queries-003.png)
 
 \newpage
 
@@ -2162,7 +2162,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 30 * 50
 WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-004.png)
+![](part1-images/03.04-queries-004.png)
 
 \newpage
 
@@ -2170,7 +2170,7 @@ WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (2, 3, 20);
 ```
 
-![](images/03.04-queries-005.png)
+![](part1-images/03.04-queries-005.png)
 
 \newpage
 
@@ -2179,7 +2179,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 150 * 20
 WHERE Id_Planeta = 2 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-006.png)
+![](part1-images/03.04-queries-006.png)
 
 \newpage
 
@@ -2188,7 +2188,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 80 * 20
 WHERE Id_Planeta = 2 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-007.png)
+![](part1-images/03.04-queries-007.png)
 
 \newpage
 
@@ -2197,7 +2197,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 100 * 20
 WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-008.png)
+![](part1-images/03.04-queries-008.png)
 
 \newpage
 
@@ -2205,7 +2205,7 @@ WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (2, 4, 30);
 ```
 
-![](images/03.04-queries-009.png)
+![](part1-images/03.04-queries-009.png)
 
 \newpage
 
@@ -2214,7 +2214,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 80 * 30
 WHERE Id_Planeta = 2 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-010.png)
+![](part1-images/03.04-queries-010.png)
 
 \newpage
 
@@ -2223,7 +2223,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 120 * 30
 WHERE Id_Planeta = 2 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-011.png)
+![](part1-images/03.04-queries-011.png)
 
 \newpage
 
@@ -2232,7 +2232,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 50 * 30
 WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-012.png)
+![](part1-images/03.04-queries-012.png)
 
 \newpage
 
@@ -2240,7 +2240,7 @@ WHERE Id_Planeta = 2 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (7, 1, 25);
 ```
 
-![](images/03.04-queries-013.png)
+![](part1-images/03.04-queries-013.png)
 
 \newpage
 
@@ -2249,7 +2249,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 100 * 25
 WHERE Id_Planeta = 7 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-014.png)
+![](part1-images/03.04-queries-014.png)
 
 \newpage
 
@@ -2258,7 +2258,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 50 * 25
 WHERE Id_Planeta = 7 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-015.png)
+![](part1-images/03.04-queries-015.png)
 
 \newpage
 
@@ -2267,7 +2267,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 30 * 25
 WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-016.png)
+![](part1-images/03.04-queries-016.png)
 
 \newpage
 
@@ -2275,7 +2275,7 @@ WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (7, 2, 30);
 ```
 
-![](images/03.04-queries-017.png)
+![](part1-images/03.04-queries-017.png)
 
 \newpage
 
@@ -2284,7 +2284,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200 * 30
 WHERE Id_Planeta = 7 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-018.png)
+![](part1-images/03.04-queries-018.png)
 
 \newpage
 
@@ -2293,7 +2293,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 100 * 30
 WHERE Id_Planeta = 7 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-019.png)
+![](part1-images/03.04-queries-019.png)
 
 \newpage
 
@@ -2302,7 +2302,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 150 * 30
 WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-020.png)
+![](part1-images/03.04-queries-020.png)
 
 \newpage
 
@@ -2310,7 +2310,7 @@ WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (7, 5, 15);
 ```
 
-![](images/03.04-queries-021.png)
+![](part1-images/03.04-queries-021.png)
 
 \newpage
 
@@ -2319,7 +2319,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 120 * 15
 WHERE Id_Planeta = 7 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-022.png)
+![](part1-images/03.04-queries-022.png)
 
 \newpage
 
@@ -2328,7 +2328,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 70 * 15
 WHERE Id_Planeta = 7 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-023.png)
+![](part1-images/03.04-queries-023.png)
 
 \newpage
 
@@ -2337,7 +2337,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 90 * 15
 WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-024.png)
+![](part1-images/03.04-queries-024.png)
 
 \newpage
 
@@ -2345,7 +2345,7 @@ WHERE Id_Planeta = 7 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (9, 2, 20);
 ```
 
-![](images/03.04-queries-025.png)
+![](part1-images/03.04-queries-025.png)
 
 \newpage
 
@@ -2354,7 +2354,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 200 * 20
 WHERE Id_Planeta = 9 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-026.png)
+![](part1-images/03.04-queries-026.png)
 
 \newpage
 
@@ -2363,7 +2363,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 100 * 20
 WHERE Id_Planeta = 9 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-027.png)
+![](part1-images/03.04-queries-027.png)
 
 \newpage
 
@@ -2372,7 +2372,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 150 * 20
 WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-028.png)
+![](part1-images/03.04-queries-028.png)
 
 \newpage
 
@@ -2380,7 +2380,7 @@ WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (9, 4, 30);
 ```
 
-![](images/03.04-queries-029.png)
+![](part1-images/03.04-queries-029.png)
 
 \newpage
 
@@ -2389,7 +2389,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 80 * 30
 WHERE Id_Planeta = 9 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-030.png)
+![](part1-images/03.04-queries-030.png)
 
 \newpage
 
@@ -2398,7 +2398,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 120 * 30
 WHERE Id_Planeta = 9 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-031.png)
+![](part1-images/03.04-queries-031.png)
 
 \newpage
 
@@ -2407,7 +2407,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 50 * 30
 WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-032.png)
+![](part1-images/03.04-queries-032.png)
 
 \newpage
 
@@ -2415,7 +2415,7 @@ WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 INSERT INTO NavesPlanetas (Id_Planeta, Id_Nave, Cantidad) VALUES (9, 5, 10);
 ```
 
-![](images/03.04-queries-033.png)
+![](part1-images/03.04-queries-033.png)
 
 \newpage
 
@@ -2424,7 +2424,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 120 * 10
 WHERE Id_Planeta = 9 AND Id_Recurso = 1;
 ```
 
-![](images/03.04-queries-034.png)
+![](part1-images/03.04-queries-034.png)
 
 \newpage
 
@@ -2433,7 +2433,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 70 * 10
 WHERE Id_Planeta = 9 AND Id_Recurso = 2;
 ```
 
-![](images/03.04-queries-035.png)
+![](part1-images/03.04-queries-035.png)
 
 \newpage
 
@@ -2442,7 +2442,7 @@ UPDATE RecursosPlanetas SET Cantidad = Cantidad - 90 * 10
 WHERE Id_Planeta = 9 AND Id_Recurso = 3;
 ```
 
-![](images/03.04-queries-036.png)
+![](part1-images/03.04-queries-036.png)
 
 \newpage
 
@@ -2478,7 +2478,7 @@ AND Id_Edificio = 4 -- Defensa Planetaria
 SELECT * FROM Jugadores WHERE Username = 'galactic_ruler';
 ```
 
-![Obtenemos Id_Jugador = 2](images/03.05-queries-001.png)
+![Obtenemos Id_Jugador = 2](part1-images/03.05-queries-001.png)
 
 \newpage
 
@@ -2486,7 +2486,7 @@ SELECT * FROM Jugadores WHERE Username = 'galactic_ruler';
 SELECT * FROM Planetas WHERE Id_Jugador = 2;
 ```
 
-![Obtenemos Id_Planeta(s) 2 y 7](images/03.05-queries-002.png)
+![Obtenemos Id_Planeta(s) 2 y 7](part1-images/03.05-queries-002.png)
 
 \newpage
 
@@ -2494,7 +2494,7 @@ SELECT * FROM Planetas WHERE Id_Jugador = 2;
 SELECT * FROM Edificios WHERE Nombre = 'Defensa Planetaria';
 ```
 
-![Obtenemos Id_Edificio = 4](images/03.05-queries-003.png)
+![Obtenemos Id_Edificio = 4](part1-images/03.05-queries-003.png)
 
 \newpage
 
@@ -2510,7 +2510,7 @@ WHERE
 AND Id_Edificio = 4 -- Defensa Planetaria;
 ```
 
-![Insertamos por Planeta si tienen el edificio](images/03.05-queries-004.png)
+![Insertamos por Planeta si tienen el edificio](part1-images/03.05-queries-004.png)
 
 \newpage
 
